@@ -1,0 +1,79 @@
+html, body{
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 35%;
+    height: 100%;
+    background-color: #6CCDEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 60%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+}
+
+h2{
+    color: #3BABCE;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+label{
+    color: #3BABCE;
+    font-weight: bold;
+}
+
+.inp{
+    margin: 5px 0 20px 0;
+}
+
+input{
+    background-color: #E4F5FB;
+    border: none;
+    width: 300px;
+    height: 40px;
+}
+
+.cad a{
+    color: #3BABCE;
+    font-weight: bold;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0 60px 0;
+}
+
+.button-s{
+    background-color: #3BABCE;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
